@@ -1,0 +1,57 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"><!--CSS do Bootstrap-->
+    <link rel="stylesheet" href="css/reserva.css">
+    <title>Reserva</title>
+</head>
+<body>
+        <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="home.html">Hotel Lunari</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+</body> 
+   <body>
+
+    <div class = "book">
+        <form class = "book-form">
+            <div class = "form-item">
+                <label for = "checkin-date">Check In: </label>
+                <input type = "date" id = "chekin-date">
+            </div>
+            <div class = "form-item">
+                <label for = "checkout-date">Check Out: </label>
+                <input type = "date" id = "chekout-date">
+            </div>
+            <div class = "form-item">
+                <label for = "adult"> Adultos: </label>
+                <input type = "number" min = "1" value = "1" id = "adult">
+            </div>
+            <div class = "form-item">
+                <label for = "children"> Crianças: </label>
+                <input type = "number" min = "1" value = "1" id = "children">
+            </div>
+            <div class = "form-item">
+                <label for = "rooms"> Quartos: </label>
+                <input type = "number" min = "1" value = "1" id = "rooms">
+            </div>
+            <div class = "form-item">
+                <input type = "submit" class = "btn" value = "Reserve Agora!">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
